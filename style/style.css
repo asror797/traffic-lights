@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1225px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.lights {
+  width: 603px;
+  padding: 15px 5px;
+  margin: 95px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 13px;
+  background-color: rgb(41, 39, 39);
+}
+
+.lights>div {
+  width: 30%;
+  height: 155px;
+  margin: 0 9px ;
+  border-radius: 50%;
+  background-color: rgb(196, 164, 164);
+}
+
+#red {
+  background-color: rgb(245, 56, 56);
+}
+
+#yellow {
+  background-color: rgb(189, 189, 82);
+}
+
+#green {
+  background-color: #79be6f;
+}
+
+.lighton {
+  box-shadow: 0 0 50px rgb(230, 64, 64);
+}
+
+.red {
+  background-color: red !important;
+  box-shadow: 0 0 50px red;
+}
+
+.yellow {
+  background-color: yellow !important;
+  box-shadow: 0 0 50px yellow;
+}
+
+.green {
+  background-color: rgb(26, 218, 26) !important;
+  box-shadow: 0 0 50px green;
+}
